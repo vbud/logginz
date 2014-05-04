@@ -1,6 +1,11 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<style = src"styles/main.css"/>
+<head>
+  <meta charset="utf-8">
+  <style src="styles/main.css"></style>
+</head>
+
+
+<body>
 <form>
   <label><input type="radio" name="mode" value="size" checked> Size</label>
   <label><input type="radio" name="mode" value="count"> Count</label>
@@ -20,13 +25,13 @@ var treemap = d3.layout.treemap()
     .sticky(true)
     .value(function(d) { return d.size; });
 
-varr div = d3.select("body").append("div")
+var div = d3.select("body").append("div")
      .style("position", "relative")
      .style("width", (width + margin.left + margin.right) + "px")
      .style("left", margin.left + "px")
      .style("top", margin.top + "px");
 
-d3.json("flare.json", function(error, root) {
+d3.json("/write", function(error, root) {
   var node = div.datum(root).selectAll(".node")
       .data(treemap.nodes)
       .enter().append("div")
@@ -55,3 +60,5 @@ function position() {
 }
 
 </script>
+</body>
+</html>
