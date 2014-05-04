@@ -112,8 +112,14 @@ app.get("/write", function(req, res) {
 
 app.use(express.static(__dirname + '/public'));
 
+/*
+app.get("/", function(req, res) {
+  res.send("Hello world!");
+});
+*/
+
 app.get("/display", function(req, res) {
-  res.send(fileHierarchyJson);
+  res.send("Bud shows me awesome d3.  But for now: " + fileHierarchyJson);
 });
 
 app.listen(4242);

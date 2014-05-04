@@ -1,4 +1,7 @@
-// chrome.tabs.create({url: chrome.extension.getURL('background.html')});
+var notification = webkitNotifications.createNotification("",
+  "Simple Background App",
+  "A background window has been created");
+notification.show();
 chrome.tabs.onUpdated.addListener( function(tabId, changeInfo, tab) {
   console.log(changeInfo.url);
 });
