@@ -694,14 +694,14 @@
 									"name": "filemap.json",
 									"children": null,
 									"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/filemap.json",
-									"logicalSize": 88804,
+									"logicalSize": 88803,
 									"diskSize": 720896
 								},
 								{
 									"name": "main.js",
 									"children": null,
 									"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/main.js",
-									"logicalSize": 3147,
+									"logicalSize": 3192,
 									"diskSize": 32768
 								},
 								{
@@ -721,7 +721,7 @@
 													"name": "History.md",
 													"children": null,
 													"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/History.md",
-													"logicalSize": 44539,
+													"logicalSize": 44633,
 													"diskSize": 360448
 												},
 												{
@@ -925,7 +925,7 @@
 																					"name": "package.json",
 																					"children": null,
 																					"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/accepts/node_modules/mime/package.json",
-																					"logicalSize": 3227,
+																					"logicalSize": 3085,
 																					"diskSize": 32768
 																				},
 																				{
@@ -1026,7 +1026,7 @@
 																					"name": "package.json",
 																					"children": null,
 																					"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/accepts/node_modules/negotiator/package.json",
-																					"logicalSize": 4655,
+																					"logicalSize": 4502,
 																					"diskSize": 65536
 																				},
 																				{
@@ -1050,8 +1050,8 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/accepts/package.json",
-																	"logicalSize": 4184,
-																	"diskSize": 65536
+																	"logicalSize": 4037,
+																	"diskSize": 32768
 																}
 															],
 															"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/accepts",
@@ -1093,7 +1093,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/buffer-crc32/package.json",
-																	"logicalSize": 2592,
+																	"logicalSize": 2435,
 																	"diskSize": 32768
 																},
 																{
@@ -1151,7 +1151,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/cookie/package.json",
-																	"logicalSize": 2010,
+																	"logicalSize": 1865,
 																	"diskSize": 32768
 																}
 															],
@@ -1201,7 +1201,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/cookie-signature/package.json",
-																	"logicalSize": 2365,
+																	"logicalSize": 2200,
 																	"diskSize": 32768
 																}
 															],
@@ -1245,7 +1245,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/debug/package.json",
-																	"logicalSize": 5432,
+																	"logicalSize": 5289,
 																	"diskSize": 65536
 																}
 															],
@@ -1295,7 +1295,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/escape-html/package.json",
-																	"logicalSize": 870,
+																	"logicalSize": 715,
 																	"diskSize": 32768
 																}
 															],
@@ -1345,7 +1345,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/fresh/package.json",
-																	"logicalSize": 2570,
+																	"logicalSize": 2427,
 																	"diskSize": 32768
 																}
 															],
@@ -1388,7 +1388,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/merge-descriptors/package.json",
-																	"logicalSize": 2335,
+																	"logicalSize": 2168,
 																	"diskSize": 32768
 																}
 															],
@@ -1424,7 +1424,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/methods/package.json",
-																	"logicalSize": 808,
+																	"logicalSize": 661,
 																	"diskSize": 32768
 																}
 															],
@@ -1460,7 +1460,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/parseurl/package.json",
-																	"logicalSize": 1977,
+																	"logicalSize": 1828,
 																	"diskSize": 32768
 																}
 															],
@@ -1510,7 +1510,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/path-to-regexp/package.json",
-																	"logicalSize": 1919,
+																	"logicalSize": 1758,
 																	"diskSize": 32768
 																},
 																{
@@ -1560,7 +1560,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/qs/package.json",
-																	"logicalSize": 2838,
+																	"logicalSize": 2701,
 																	"diskSize": 32768
 																}
 															],
@@ -1610,7 +1610,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/range-parser/package.json",
-																	"logicalSize": 3200,
+																	"logicalSize": 3043,
 																	"diskSize": 32768
 																}
 															],
@@ -1710,7 +1710,7 @@
 																					"name": "package.json",
 																					"children": null,
 																					"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/send/node_modules/debug/package.json",
-																					"logicalSize": 5345,
+																					"logicalSize": 5202,
 																					"diskSize": 65536
 																				}
 																			],
@@ -1746,7 +1746,7 @@
 																					"name": "package.json",
 																					"children": null,
 																					"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/send/node_modules/mime/package.json",
-																					"logicalSize": 3210,
+																					"logicalSize": 3085,
 																					"diskSize": 32768
 																				},
 																				{
@@ -1792,7 +1792,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/send/package.json",
-																	"logicalSize": 5453,
+																	"logicalSize": 5312,
 																	"diskSize": 65536
 																}
 															],
@@ -1849,7 +1849,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/serve-static/package.json",
-																	"logicalSize": 2514,
+																	"logicalSize": 2357,
 																	"diskSize": 32768
 																}
 															],
@@ -1926,7 +1926,7 @@
 																					"name": "package.json",
 																					"children": null,
 																					"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/type-is/node_modules/mime/package.json",
-																					"logicalSize": 3210,
+																					"logicalSize": 3068,
 																					"diskSize": 32768
 																				},
 																				{
@@ -1972,7 +1972,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/type-is/package.json",
-																	"logicalSize": 3560,
+																	"logicalSize": 3413,
 																	"diskSize": 32768
 																}
 															],
@@ -2015,7 +2015,7 @@
 																	"name": "package.json",
 																	"children": null,
 																	"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/node_modules/utils-merge/package.json",
-																	"logicalSize": 1749,
+																	"logicalSize": 1594,
 																	"diskSize": 32768
 																}
 															],
@@ -2032,7 +2032,7 @@
 													"name": "package.json",
 													"children": null,
 													"fullpath": "/Users/jmlarsen/Documents/Development/Web/JsLearnin/nodejs/fileviewer/node_modules/express/package.json",
-													"logicalSize": 5971,
+													"logicalSize": 5825,
 													"diskSize": 65536
 												}
 											],
