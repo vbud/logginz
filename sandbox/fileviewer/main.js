@@ -1,7 +1,8 @@
 var http = require('http');
 var fs = require('fs');
 var path = require('path');
-var app = require('express')();
+var express = require('express');
+var app = express();
 var url = require('url');
 
 var rootDir = null;
@@ -109,9 +110,13 @@ app.get("/write", function(req, res) {
   writeFileHierarch("filemap.json");
 });
 
+app.use(express.static(__dirname + '/public'));
+
+/*
 app.get("/", function(req, res) {
   res.send("Hello world!");
 });
+*/
 
 app.get("/display", function(req, res) {
   res.send("Bud shows me awesome d3.  But for now: " + fileHierarchyJson);
