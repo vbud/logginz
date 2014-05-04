@@ -72,15 +72,15 @@ function skipParent(key, value) {
 
 /* Writes the filemap to the given filename.  Not safe at all.
 */
-function writeFileHierarch(filemapname) {
+function writeFileHierarchy(filemapname) {
   console.log("writing filemap ...", filemapname);
-  var fd = fs.openSync(filemapname, "w");
+  // var fd = fs.openSync(filemapname, "w");
   var fmjson = JSON.stringify(rootDir, skipParent, '\t');
   fileHierarchyJson = fmjson;
-  fs.writeFile(filemapname, fmjson, function(err) {
-    if (err) throw err;
-    console.log("wrote filemap");
-  });
+  // fs.writeFile(filemapname, fmjson, function(err) {
+  //   if (err) throw err;
+  //   console.log("wrote filemap");
+  // });
 }
 
 /* Traverse the file hierarchy and updates the file map */
@@ -107,7 +107,7 @@ app.get("/update", function(req, res) {
 
 app.get("/write", function(req, res) {
   res.send("writing filemap ...");
-  writeFileHierarch("filemap.json");
+  writeFileHierarchy("filemap.json");
 });
 
 app.use(express.static(__dirname + '/public'));
@@ -119,7 +119,7 @@ app.get("/", function(req, res) {
 */
 
 app.get("/display", function(req, res) {
-  res.send("Bud shows me awesome d3.  But for now: " + fileHierarchyJson);
+  res.send(fileHierarchyJson);
 });
 
 app.listen(4242);
