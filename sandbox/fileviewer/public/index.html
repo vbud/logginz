@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"></meta>
   <style src="styles/main.css"></style>
 </head>
 
@@ -31,7 +31,7 @@ var div = d3.select("body").append("div")
      .style("left", margin.left + "px")
      .style("top", margin.top + "px");
 
-d3.json("/write", function(error, root) {
+d3.json("./display", function(error, root) {
   var node = div.datum(root).selectAll(".node")
       .data(treemap.nodes)
       .enter().append("div")
